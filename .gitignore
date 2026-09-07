@@ -40,3 +40,9 @@ k8s/*-secret.yaml
 k8s/fds-secret.yaml
 
 models/*.pt
+# Claude Code 로컬 설정 (공유 룰 01-freeze-zones.md만 추적)
+CLAUDE.md
+.claude/*
+!.claude/rules/
+.claude/rules/*
+!.claude/rules/01-freeze-zones.md
