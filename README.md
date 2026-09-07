@@ -135,6 +135,7 @@ uv run pytest -q                # 테스트 (64개 파일)
 
 | 문서 | 내용 |
 |---|---|
+| [고도화 참여자 온보딩](docs/ONBOARDING.md) | **새로 합류했다면 먼저 읽으세요.** 바뀐 구조, 지켜야 할 규칙, 알려진 함정 |
 | [API 명세서](docs/API_Specification.md) | 엔드포인트 70개. **OpenAPI에서 자동 생성**하므로 손으로 고치지 않습니다 |
 | [로컬 개발 가이드](docs/Team_Local_Dev_Guide.md) | 환경변수, 실행, RAG 시딩, 품질 게이트 |
 | [기획서](docs/B2B_WMS_AI_Platform_기획서_ver1.6.0.0.md) | 전체 시스템 구조와 요구사항 |
@@ -153,7 +154,7 @@ uv run python scripts/generate_api_spec.py
 
 ## 관련 저장소
 
-- 프론트엔드: [wms-core-frontend](https://github.com/jmkyong9393/wms-core-frontend)
+- 프론트엔드: [wms-core-frontend](https://github.com/newzed-enhancement/wms-core-frontend)
 
 ## 만든 사람들
 
